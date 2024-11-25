@@ -1,0 +1,3 @@
+headers = libchatllm.h
+compilerOpts = -I.
+linkerOpts = -L. -llibchatllm

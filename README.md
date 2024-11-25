@@ -9,4 +9,4 @@ cinterop -def libchatllm.def -o C:\ktnt\bin\libchatllm_interop
 
 Compilation of executable:
 
-kotlinc-native main.kt -library C:\ktnt\bin\libchatllm_interop.klib -linker-options -L. -linker-options -llibchatllm -o main
+kotlinc-native main.kt -library C:\your_path_to_kotlin_native\bin\libchatllm_interop.klib -linker-options -L. -linker-options -llibchatllm -o main
